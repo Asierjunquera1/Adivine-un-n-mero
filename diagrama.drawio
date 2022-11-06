@@ -1,0 +1,107 @@
+<mxfile host="65bd71144e">
+    <diagram id="ur16IWIxlSJApwZ0t-oq" name="Página-1">
+        <mxGraphModel dx="734" dy="574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="3" value="import random&lt;br&gt;numero = random.randint (0, 100)" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="300" y="80" width="200" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="" style="endArrow=none;html=1;fontColor=#FFFFFF;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" target="3" edge="1" source="7">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="360" y="200" as="sourcePoint"/>
+                        <mxPoint x="400" y="230" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="12" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FFFFFF;" parent="1" source="7" target="9" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="intento = input(&quot;introduzca un número:&quot;)" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#000000;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="285" y="200" width="230" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontColor=#FFFFFF;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="9" target="18" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="160" y="450" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="160" y="415"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="32" style="edgeStyle=none;html=1;fontColor=#FFFFFF;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="9">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="510" y="600" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="400" y="600"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9" value="while numero != intento" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=#000000;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="285" y="330" width="230" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="print (&quot;Has ganado&quot;)" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#000000;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="500" y="570" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontColor=#FFFFFF;" parent="1" source="18" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="70" y="700" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="70" y="575"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="31" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#FFFFFF;" edge="1" parent="1" source="18">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="260" y="700" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="260" y="575"/>
+                            <mxPoint x="260" y="640"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="18" value="if numero &amp;gt; intento&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=#000000;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="90" y="520" width="140" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" style="edgeStyle=none;html=1;fontColor=#FFFFFF;exitX=0.385;exitY=1.047;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="22" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="170" y="840" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="70" y="840"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="22" value="print (&quot;demasiado pequeño&quot;)" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#000000;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="10" y="700" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" style="edgeStyle=none;html=1;exitX=0.547;exitY=1.033;exitDx=0;exitDy=0;fontColor=#FFFFFF;exitPerimeter=0;" parent="1" source="23" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="170" y="840" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="260" y="840"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="23" value="print (&quot;demasiado grande&quot;)" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#000000;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="180" y="700" width="150" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="" style="endArrow=classic;html=1;fontColor=#FFFFFF;" parent="1" target="28" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="170" y="840" as="sourcePoint"/>
+                        <mxPoint x="170" y="900" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="29" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=#FFFFFF;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="28" target="9">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="390" y="670" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="170" y="1000"/>
+                            <mxPoint x="343" y="1000"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="28" value="intento = input (&quot;introduzca otro número:&quot;)&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#000000;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="110" y="890" width="120" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
